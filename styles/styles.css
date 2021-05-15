@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'KoHo', sans-serif;
+}
+
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0.05;
+  font-size: 9rem;
+  color: white;
+}
+
+.score {
+  display: inline-block;
+  position: absolute;
+  font-size: 1.25rem;
+  bottom: 2.5rem;
+  right: 1.25rem;
+  color: white;
+}
+
+.lives {
+  position: absolute;
+  display: inline-block;
+  font-size: 1.25rem;
+  bottom: 2.5rem;
+  left: 1.25rem;
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */
